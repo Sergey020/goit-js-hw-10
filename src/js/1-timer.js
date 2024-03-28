@@ -1,10 +1,10 @@
 
 import flatpickr from "flatpickr"; 
-import "flatpickr/dist/flatpickr.min.css"
+import "flatpickr/dist/flatpickr.min.css";
 
 console.log("timer");
-const imputEl = document.querySelector("#datetime-picker");
-// let userSelectedDate =
+const inputEl = document.querySelector("#datetime-picker");
+ //let userSelectedDate
 const options = { 
     enableTime: true, // вкл выбор времени
     time_24hr: true, // Отображает выбор времени в 24-часовом режиме без выбора AM/PM, если этот параметр включен.
@@ -15,6 +15,4 @@ const options = {
     }, 
   };
 
-function flatpickr(inputEl, options) {
-
-};
+flatpickr(inputEl, options);
