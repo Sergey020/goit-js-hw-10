@@ -17,4 +17,4 @@ const options = {
 
 function flatpickr(inputEl, options) {
 
-}
+};
