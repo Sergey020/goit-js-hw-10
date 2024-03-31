@@ -1,0 +1,17 @@
+.form {
+    width: 360px;
+    height: 72px;
+    top: 36px;
+    left: 156px;
+    gap: 8px;
+    opacity: 0px;
+}
+
+    
+.input-data {
+width: 360px;
+height: 40px;
+gap: 0px;
+opacity: 0px;
+
+}

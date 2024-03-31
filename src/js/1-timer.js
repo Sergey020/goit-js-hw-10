@@ -49,7 +49,9 @@ const options = {
     if(selectedDates[0].getTime() < options.defaultDate.getTime()) {
       iziToast.show({
   message :"Please choose a date in the future",
-  position: "topRight"
+  position: "topRight",
+  backgroundColor: "#EF4040",
+  messageColor: "#ffffff"
 });
         btnEl.disabled = true;
       } else {

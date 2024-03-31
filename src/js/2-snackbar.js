@@ -20,6 +20,8 @@ function handleClick(event) {
                     message: `✅ Fulfilled promise in ${delay}ms`,
                     position: 'topRight',
                     timeout: delay,
+backgroundColor: "#326101",
+  messageColor: "#ffffff"
                   })
                   );
           } else {
@@ -28,6 +30,8 @@ function handleClick(event) {
                     message: `❌ Rejected promise in ${delay}ms`,
                     position: 'topRight',
                     timeout: delay,
+backgroundColor: "#EF4040",
+messageColor: "#ffffff"
                   })
                 );
           }})
