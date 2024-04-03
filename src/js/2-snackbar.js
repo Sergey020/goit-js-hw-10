@@ -11,9 +11,9 @@ function handleSubmit(event) {
   const promise = new Promise((resolve, reject) => {
     setTimeout(() => {
       if (fieldset === 'fulfilled') {
-        resolve(console.log(`✅ Fulfilled promise in ${delay}ms`));
+        resolve(`✅ Fulfilled promise in ${delay}ms`);
       } else {
-        reject(console.log(`❌ Rejected promise in ${delay}ms`));
+        reject(`❌ Rejected promise in ${delay}ms`);
       }
     }, delay);
   });
